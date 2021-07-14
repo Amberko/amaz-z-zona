@@ -1,73 +1,100 @@
+1. Introdaction – AMAZ-Z-ZONA
 
+https://amaz-z-zona.herokuapp.com/
 
-1. Introdaction – AMAZ-Z-ZONA 
+https://amaz-z-zona.herokuapp.com/api/users/createadmin
 
-https://amaz-z-zona.herokuapp.com/ 
+GIT
 
-https://amaz-z-zona.herokuapp.com/api/users/createadmin  
+https://git.heroku.com/amaz-z-zona.git
 
- 
+GitHub
 
-GIT 
+https://github.com/Amberko/amaz-z-zona
 
-https://git.heroku.com/amaz-z-zona.git  
+Amaz-z-zona - MongoDB
 
- 
+mongodb+srv://amaz-z-zona:zzz3zzz@mika-mongo-db.2ndnx.mongodb.net/amaz-z-zonaDB?retryWrites=true
 
-Amaz-z-zona - MongoDB 
+.env file
 
-mongodb+srv://amaz-z-zona:zzz3zzz@mika-mongo-db.2ndnx.mongodb.net/amaz-z-zonaDB?retryWrites=true 
+MONGODB_URL=mongodb://localhost/jsamazona
 
- 
+JWT_SECRET=somethingsecret
 
-.env file 
+PAYPAL_CLIENT_ID=db
 
-MONGODB_URL=mongodb://localhost/jsamazona  
+Run Backend
 
-JWT_SECRET=somethingsecret  
+npm install
 
-PAYPAL_CLIENT_ID=db  
+npm run build
 
-Run Backend 
+npm start
 
-npm install 
+Run Frontend
 
-npm run build  
+npm install
 
-npm start  
+npm start
 
-Run Frontend 
+OPIS:
 
-npm install  
+Kreiran je e-commerce sajt nalik na Amazon.com
 
-npm start  
+Osnovni alati : Vanilla JavaScript and Node.JS, ExpressJS and MongoDB
 
+Steko sam iskustvo u pravljenu kompletnog "responsive" sajta, od "user-friendly" dizjana, backend and frontend produkcije, autorizacije, I postavljanja na web preko Heroku servera..
 
+-Web Design
 
+HTML5,
 
-We are creating e-commerce website using Vanilla JavaScript and Node.JS, ExpressJS and MongoDB
+CSS3 including Semantic Elements,
 
-Learned the essential tools and skills to design, develop and deploy a fully-function website like amazon using Vanilla JavaScript, HTML5 and CSS3 in frontend and Node and MongoDB in backend.
+Flexbox,
 
-able to design a responsive web template, implement a user-friendly frontend and build a scalable backend. Also you can deploy your website on cloud servers like Heroku and connect it to payment gateways like PayPal.
+Grid System
 
-- Web Design using HTML5, CSS3 including Semantic Elements, Flexbox, Grid System and Response Design.
+and Response Design.
 
-- Frontend Development by Pure JavaScript including ES6 Syntax, Rendering System, Single Page App, Libraries for Date Time, drawing chart and etc.
+Frontend Development
 
-- Backend Development using Node and MongoDB consist of ExpressJS, JWT Authentication, Mongoose object data modeling and more.
+Pure JavaScript including ES6 Syntax,
 
-Also used:
+Array Functions,
 
-HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
+Rendering System,
 
-JavaScript: ES6+, Array Functions, Rendering System
+Single Page App,
 
-Node & Express: Web API, Body Parser, File Upload, JWT
+Libraries for Date Time,
 
-MongoDB: Mongoose, Aggregation
+drawing chart and etc.
 
-Development: ESLint, Babel, Git, Github,
+Backend Development
+
+Node and MongoDB (Mongoose, Aggregation)
+
+ExpressJS,
+
+JWT Authentication,
+
+Mongoose object data modeling,
+
+Web API, Body Parser,
+
+File Upload and more.
+
+Development:
+
+ESLint,
+
+Babel,
+
+Git,
+
+Github,
 
 Deployment: Heroku
 
@@ -585,7 +612,7 @@ style ul. products and internal divs
 
 ( FLEX, flex-wrap, flex-direction, justify-content and flex: 0 1 30rem (max sirina))
 
-5.      style EVERY -->  a and a:hover
+5.       style EVERY -->  a and a:hover
 
 text-decoration: none, color: black or orange when hovered
 
@@ -613,17 +640,17 @@ text-decoration: none, color: black or orange when hovered
 
 9.  Add Webpack to Frontend + AXIOS
 
-    1.      npm install –D webpack  webpack-cli  webpack-dev-server  (frontend)
+    1.       npm install –D webpack  webpack-cli  webpack-dev-server  (frontend)
 
-    2.      “start”: “webpack-dev-server  –mode  development  –watch-content-base  –open”
+    2.       “start”: “webpack-dev-server  –mode  development  –watch-content-base  –open”
 
     3.  npm install axios (frontend)
 
 10. Install Babel For ES6 Syntax (backend - root) + NODEMON
 
-    1.      npm install -D @babel/core  @babel/cli  @babel/node  @babel/preset-env
+    1.       npm install -D @babel/core  @babel/cli  @babel/node  @babel/preset-env
 
-    2.      create .babelrc file in root
+    2.       create .babelrc file in root
 
 {
 
@@ -659,11 +686,11 @@ text-decoration: none, color: black or orange when hovered
 
     1.  npm install –D eslint (root)
 
-    2.      install VScode extension “ESLint”
+    2.       install VScode extension “ESLint”
 
-    3.      create  .eslintrc.js  (in root folder)
+    3.       create  .eslintrc.js  (in root folder)
 
-    4.      in .eslintrc.js  file define setting for ESLint
+    4.       in .eslintrc.js  file define setting for ESLint
 
 module.exports = {
 
@@ -691,11 +718,11 @@ rules: { 'no-console': 0, 'no-underscore-dangle': 0,
 
 12. Install VSCode Extensions
 
-    1.      JS (ES6) code snippets
+    1.       JS (ES6) code snippets
 
-    2.      ES7 React?Redux/GraphQL/React-Native snippets
+    2.       ES7 React?Redux/GraphQL/React-Native snippets
 
-    3.      Prettier – Code formatter
+    3.       Prettier – Code formatter
 
 Fix compatability issue with eslint
 
@@ -763,7 +790,7 @@ Zatim pokrecemo tu npm start comandu u ROOT terminalu, cime se startuje rad nase
 
 U slucaju bilo koje izmene na CODE-u, server mora da se ubije I ponovo pokrene
 
-4.      use/import CORS on backend/server.js ( npm install cors – in root folder
+4.       use/import CORS on backend/server.js ( npm install cors – in root folder
 
 Install - npm install cors (root)
 
@@ -843,7 +870,7 @@ Na adresi http://localhost:5000/api/products, dobicemo podatke u JSON formatu, c
 
 5.  Render Dynamic HomeScreen
 
-    1.      create in backend data.js ---> products
+    1.       create in backend data.js ---> products
 
 \_id, name, category, image, price, brand, raiting, numReviews, countInStock
 
